@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main() {
+long long int t,D,d,p,q,n,total;
+ cin>>t;
+ while(t--){
+   cin>>D>>d>>p>>q;
+   n=D/d;
+   total=(D*p)+(q*((n*D)-(((d*n)*(n+1))/2)));
+   cout<<total<<endl;
+ }
+    return 0;
+
+}
