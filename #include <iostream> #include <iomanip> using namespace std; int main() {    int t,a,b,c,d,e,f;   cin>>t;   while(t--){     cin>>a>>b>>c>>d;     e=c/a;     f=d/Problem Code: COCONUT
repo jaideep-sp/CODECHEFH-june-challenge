@@ -1,0 +1,14 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main() {
+   int t,a,b,c,d,e,f;
+  cin>>t;
+  while(t--){
+    cin>>a>>b>>c>>d;
+    e=c/a;
+    f=d/b;
+    cout<<e+f<<endl;
+  }
+return 0;
+}
